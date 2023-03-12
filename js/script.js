@@ -32,8 +32,10 @@ rmv.addEventListener("click",()=>{
 })
 function updatecursor(){
     if(count > 0){
+        // this condition will allow user to click on "rmv" button
         rmv.style.cursor = "pointer"
     }else{
+        // this condition will allow user not to select on "rmv" button
         rmv.style.cursor = "not-allowed";
     }
 }
