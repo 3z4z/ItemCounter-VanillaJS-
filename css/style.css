@@ -1,0 +1,52 @@
+.vanillaCounter {
+  font-family: sans-serif;
+  color: #444;
+  margin: 0 auto;
+  width: 200px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5333333333);
+}
+.vanillaCounter p {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.vanillaCounter #counter {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 8px;
+  font-size: 32px;
+  background: #eee;
+  color: #444;
+  font-family: sans-serif;
+  font-weight: 900;
+}
+.vanillaCounter .buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+.vanillaCounter .buttons button#add,
+.vanillaCounter .buttons button#rmv {
+  cursor: pointer;
+  transition: all linear 0.15s;
+  width: 25px;
+  height: 25px;
+  line-height: 18px;
+  font-size: 20px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5333333333);
+  background-color: #eee;
+  border-radius: 50%;
+  border: none;
+}
+.vanillaCounter .buttons button#add:hover {
+  color: #fff;
+  background: #329732;
+}
+.vanillaCounter .buttons button#rmv:hover {
+  color: #fff;
+  background: #ac2727;
+}/*# sourceMappingURL=style.css.map */
